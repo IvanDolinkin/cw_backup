@@ -4,10 +4,10 @@ from datetime import datetime
 from tqdm import tqdm
 from time import sleep
 
-VK_ID = ...
-VK_TOKEN = ...
-DISK_TOKEN = ...
-path = '/Netology/Coursework_Dolinkin'
+VK_ID = input('Введите id пользователя Вконтакте: ')
+VK_TOKEN = input('Введите токен VK: ')
+DISK_TOKEN = input('Введите токен Яндекс диска: ')
+path = input('Введите путь для копирования на Яндекс диск: ')
 
 
 # Достаем информацию по фоткам
